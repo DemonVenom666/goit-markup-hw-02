@@ -58,6 +58,10 @@ ul{
     color: #212121;
 }
 
+.features-subtitle{
+    color: #212121;
+}
+
 .features-text{
     color: #757575;
 }
@@ -78,9 +82,14 @@ ul{
     background-color: #F5F4FA;
 }
 
-.team-title{
+.team-title {
     color: #212121;
 }
+
+.team-subtitle{
+    color: #212121;
+}
+
 .team-text{
     color: #757575;
 }
