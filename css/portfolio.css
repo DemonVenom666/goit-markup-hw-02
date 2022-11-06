@@ -1,0 +1,67 @@
+ul {
+    list-style: none;
+}
+
+/* шапка сайту з навігацією*/
+
+.logostudio {
+    color: #000000
+}
+
+.secondary-logo {
+    color: #2196F3;
+}
+
+.site-nav {
+    color: #212121;
+}
+
+.site-nav:hover,
+.site-nav:focus {
+    color: #2196F3;
+}
+
+.auth-nav {
+    color: #757575;
+}
+
+.auth-nav:hover,
+.auth-nav:focus {
+    color: #2196F3;
+}
+
+/*Сторінка портфоліо*/
+
+.main-portfolio{
+    background-color: #ffffff;
+}
+
+.project-title{
+    color: #212121;
+}
+
+.project-text{
+    color: #757575;
+}
+
+/*Підвал*/
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-studio {
+    color: #2196F3;
+}
+
+.footer-logo {
+    color: #ffffff;
+}
+
+.address-street {
+    color: #ffffff;
+}
+
+.footer-nav {
+    color: rgba(255, 255, 255, 0.6);
+}
