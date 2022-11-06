@@ -4,10 +4,15 @@
     --accent-color: #2196F3;
     --logo-color:#000000;
     --white-color:#ffffff;
+    --buttons-color:#F5F4FA;
 }
 
 ul{
     list-style: none;
+}
+
+body{
+    font-family: Roboto, sans-serif;
 }
 
 /* шапка сайту з навігацією*/
@@ -130,6 +135,17 @@ ul{
 }
 
 /*Сторінка Портфоліо*/
+
+.buttons .button{
+    background-color: var(--buttons-color);
+    color: var(--primary-color);
+}
+
+.buttons .button:hover,
+.buttons .button:focus{
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
 
 .main-portfolio {
     background-color: #ffffff;
