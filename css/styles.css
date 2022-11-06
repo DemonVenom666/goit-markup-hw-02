@@ -1,9 +1,9 @@
-.root{
-    --title-color:#212121;
-    --text-color:#757575;
-    --primary-logo-color:#000000;
-    --accent-color:#2196F3;
-    --hero-title-color:#ffffff;
+:root{
+    --primary-color:#212121;
+    --secondary-color:#757575;
+    --accent-color: #2196F3;
+    --logo-color:#000000;
+    --white-color:#ffffff;
 }
 
 ul{
@@ -12,37 +12,59 @@ ul{
 
 /* шапка сайту з навігацією*/
 
-
-
 .logostudio{
-    color: #000000
+    color: var(--logo-color);
 }
 
 .secondary-logo{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .site-nav{
-    color: #212121;
+    color: var(--primary-color);
 }
 
 .site-nav:hover,
 .site-nav:focus{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .site-nav-current{
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .auth-nav{
-    color: #757575;
+    color: var(--secondary-color);
 }
 
 .auth-nav:hover,
 .auth-nav:focus{
-    color: #2196F3;
+    color: var(--accent-color);
 }
+
+/*Підвал*/
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-studio {
+    color: var(--accent-color);
+}
+
+.footer-logo {
+    color: var(--white-color);
+}
+
+.address-street {
+    color: var(--white-color);
+}
+
+.footer-nav {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/*Сторінка Cтудія*/
 
 /*Секція герой*/
 
@@ -51,42 +73,42 @@ ul{
 }
 
 .hero-title{
-    color: #ffffff;
+    color: var(--white-color);
 }
 
 /*Button*/
 
 .button{
-    background-color: #2196F3;
-    color: #ffffff;
+    background-color: var(--accent-color);
+    color: var(--white-color);
 }
 
 /*Секція особливості*/
 
 .features{
-    background-color: #ffffff;
+    background-color: var(--white-color);
 }
 
 .features-title{
-    color: #212121;
+    color: var(--primary-color);
 }
 
 .features-subtitle{
-    color: #212121;
+    color: var(--primary-color);
 }
 
 .features-text{
-    color: #757575;
+    color: var(--secondary-color);
 }
 
 /*Секція чим займаємось*/
 
 .occupation{
-    background-color: #ffffff;
+    background-color: var(--white-color);
 }
 
 .occupation-title{
-    color: #212121;
+    color: var(--primary-color);
 }
 
 /*Секція наша команда*/
@@ -96,35 +118,27 @@ ul{
 }
 
 .team-title {
-    color: #212121;
+    color: var(--primary-color);
 }
 
 .team-subtitle{
-    color: #212121;
+    color: var(--primary-color);
 }
 
 .team-text{
+    color: var(--secondary-color);
+}
+
+/*Сторінка Портфоліо*/
+
+.main-portfolio {
+    background-color: #ffffff;
+}
+
+.project-title {
+    color: #212121;
+}
+
+.project-text {
     color: #757575;
-}
-
-/*Підвал*/
-
-.footer{
-    background-color: #2F303A;
-}
-
-.footer-studio{
-    color: #2196F3;
-}
-
-.footer-logo{
-    color: #ffffff;
-}
-
-.address-street{
-    color: #ffffff;
-}
-
-.footer-nav{
-    color: rgba(255, 255, 255, 0.6);
 }
