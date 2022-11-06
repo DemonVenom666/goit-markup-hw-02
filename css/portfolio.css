@@ -16,6 +16,10 @@ ul {
     color: #212121;
 }
 
+.site-nav-current{
+    color: #2196F3;
+}
+
 .site-nav:hover,
 .site-nav:focus {
     color: #2196F3;

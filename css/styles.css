@@ -12,6 +12,8 @@ ul{
 
 /* шапка сайту з навігацією*/
 
+
+
 .logostudio{
     color: #000000
 }
@@ -26,6 +28,10 @@ ul{
 
 .site-nav:hover,
 .site-nav:focus{
+    color: #2196F3;
+}
+
+.site-nav-current{
     color: #2196F3;
 }
 
@@ -45,6 +51,13 @@ ul{
 }
 
 .hero-title{
+    color: #ffffff;
+}
+
+/*Button*/
+
+.button{
+    background-color: #2196F3;
     color: #ffffff;
 }
 
