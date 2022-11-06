@@ -1,0 +1,116 @@
+.root{
+    --title-color:#212121;
+    --text-color:#757575;
+    --primary-logo-color:#000000;
+    --accent-color:#2196F3;
+    --hero-title-color:#ffffff;
+}
+
+ul{
+    list-style: none;
+}
+
+.body{
+
+}
+
+/* шапка сайту з навігацією*/
+
+.header{
+
+}
+
+.logostudio{
+    color: #000000
+}
+
+.secondary-logo{
+    color: #2196F3;
+}
+
+.site-nav{
+    color: #212121;
+}
+
+.site-nav:hover,
+.site-nav:focus{
+    color: #2196F3;
+}
+
+.auth-nav{
+    color: #757575;
+}
+
+.auth-nav:hover,
+.auth-nav:focus{
+    color: #2196F3;
+}
+
+/*Секція герой*/
+
+.hero{
+    background-color: #2F303A;
+}
+
+.hero-title{
+    color: #ffffff;
+}
+
+/*Секція особливості*/
+
+.features{
+    background-color: #ffffff;
+}
+
+.features-title{
+    color: #212121;
+}
+
+.features-text{
+    color: #757575;
+}
+
+/*Секція чим займаємось*/
+
+.occupation{
+    background-color: #ffffff;
+}
+
+.occupation-title{
+    color: #212121;
+}
+
+/*Секція наша команда*/
+
+.team{
+    background-color: #F5F4FA;
+}
+
+.team-title{
+    color: #212121;
+}
+.team-text{
+    color: #757575;
+}
+
+/*Підвал*/
+
+.footer{
+    background-color: #2F303A;
+}
+
+.footer-studio{
+    color: #2196F3;
+}
+
+.footer-logo{
+    color: #ffffff;
+}
+
+.address-street{
+    color: #ffffff;
+}
+
+.footer-nav{
+    color: rgba(255, 255, 255, 0.6);
+}
