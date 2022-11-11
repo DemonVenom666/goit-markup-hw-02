@@ -25,6 +25,11 @@ body{
     color: var(--accent-color);
 }
 
+.logostudio:hover,
+.logostudio:focus {
+    color: var(--accent-color);
+}
+
 .site-nav{
     color: var(--primary-color);
 }
@@ -57,6 +62,11 @@ body{
     color: var(--accent-color);
 }
 
+.footer-logo:hover,
+.footer-logo:focus {
+    color: var(--accent-color);
+}
+
 .footer-logo {
     color: var(--white-color);
 }
@@ -67,6 +77,16 @@ body{
 
 .footer-nav {
     color: rgba(255, 255, 255, 0.6);
+}
+
+.address-street:hover,
+.address-street:focus {
+    color: var(--accent-color);
+}
+
+.footer-nav:hover,
+.footer-nav:focus {
+    color: var(--accent-color);
 }
 
 /*Сторінка Cтудія*/
