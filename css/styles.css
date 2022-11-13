@@ -7,18 +7,31 @@
     --buttons-color:#F5F4FA;
 }
 
-ul{
+.list{
     list-style: none;
+}
+
+.link{
+    text-decoration: none;
 }
 
 body{
     font-family: Roboto, sans-serif;
+    font-style: normal;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: var(--primary-color);
 }
 
 /* шапка сайту з навігацією*/
 
 .logostudio{
     color: var(--logo-color);
+    
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 
 .secondary-logo{
@@ -30,8 +43,14 @@ body{
     color: var(--accent-color);
 }
 
+
 .site-nav{
     color: var(--primary-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav:hover,
@@ -60,6 +79,12 @@ body{
 
 .footer-studio {
     color: var(--accent-color);
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
 }
 
 .footer-logo:hover,
@@ -73,10 +98,22 @@ body{
 
 .address-street {
     color: var(--white-color);
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 .footer-nav {
     color: rgba(255, 255, 255, 0.6);
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 .address-street:hover,
@@ -99,6 +136,15 @@ body{
 
 .hero-title{
     color: var(--white-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    /* or 136% */
+    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 /*Button*/
@@ -120,10 +166,18 @@ body{
 
 .features-subtitle{
     color: var(--primary-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
 }
 
 .features-text{
     color: var(--secondary-color);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 /*Секція чим займаємось*/
@@ -134,6 +188,10 @@ body{
 
 .occupation-title{
     color: var(--primary-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
 }
 
 /*Секція наша команда*/
@@ -144,14 +202,27 @@ body{
 
 .team-title {
     color: var(--primary-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,16;
+    text-align: center;
 }
 
 .team-subtitle{
     color: var(--primary-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
 }
 
 .team-text{
     color: var(--secondary-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
 }
 
 /*Сторінка Портфоліо*/
@@ -172,9 +243,21 @@ body{
 }
 
 .project-title {
-    color: #212121;
+    color: var(--primary-color);
+
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    /* identical to box height, or 200% */
+    
+    letter-spacing: 0.06em;
 }
 
 .project-text {
-    color: #757575;
+    color: var(--secondary-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
 }
